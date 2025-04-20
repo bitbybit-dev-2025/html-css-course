@@ -9,3 +9,17 @@
 <a href="https://www.youtube.com/" target="blank">
   Link to YouTube
 </a>
+
+
+
+
+//notes
+
+
+// Always combine target="_blank" with rel="noopener noreferrer" for security reasons:
+// <a href="https://example.com" target="_blank" rel="noopener noreferrer">Click me</a>
+
+// What could go wrong?
+// a javascript command could be ran on your website using a conept called window.opener – The Door Between Tabs
+// window.opener.location = 'https://phishing-version-of-your-site.com';
+// What it does it changes the priority of the blank page by creating a back door
